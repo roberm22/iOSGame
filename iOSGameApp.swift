@@ -1,9 +1,8 @@
 
-
 import SwiftUI
 
 @main
-struct Practica1App: App {
+struct iOSGameApp: App {
 	
 	let model = QuizModel.shared //creado a nivel de aplicacion se podria crear en la vista
 	let imageStore = ImageStore()
@@ -19,3 +18,5 @@ struct Practica1App: App {
         }
     }
 }
+
+
